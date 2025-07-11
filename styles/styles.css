@@ -60,10 +60,7 @@
 }
 
 /* For Main:-First Section */
-main {
-    max-width: 1140px;
-    margin: 0 auto;
-}
+
 
 .main-sec-h1 {
     color: #252432;
@@ -90,10 +87,15 @@ main {
 .main-section {
     display: flex;
     justify-content: space-between;
-    margin-top: 140px;
     align-items: center;
     margin-right: 30px;
     margin-left: 30px;
+}
+
+.main-sec2 {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 140px;
 }
 
 .for-section-img {
@@ -106,6 +108,8 @@ main {
 
 /* For Main Second Section */
 .Section-look {
+    max-width: 1140px;
+    margin: 0 auto;
     background-color: #d9d9eb;
     border-radius: 10px;
     height: 320px;
@@ -216,10 +220,50 @@ main {
 }
 
 /* Ready Section */
-.ready-img{
-    width: 1140px;
-    
+.ready-img {
+    background-image: url(../B12A01-landing-launchpad/Assets/wc-big.png);
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 360px;
+    margin-left: 150px;
+    border-radius: 40px;
 }
+
+.ready-sec {
+    text-align: center;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ready-h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.ready-art {
+    font-size: 20px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+.ready-btn {
+    color: #FFFF;
+    background-color: #4E47FF;
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #4E47FF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ready-line {
+    padding-top: 10px;
+    line-height: 10px;
+}
+
 /* Form Section */
 
 .form-h1 {
@@ -280,8 +324,8 @@ input[placeholder] {
     border-color: whitesmoke;
 }
 
-.for-text{
-    height:150px;
+.for-text {
+    height: 150px;
 }
 
 
