@@ -165,11 +165,12 @@ main {
 }
 
 
-.user-photo img {
+.user-photo2 {
     height: 40px;
     width: 40px;
     border-radius: 360px;
 }
+
 
 .review {
     line-height: 4px;
@@ -202,18 +203,23 @@ main {
 
 .user-div {
     line-height: 20px;
-    background-color: rgb(249, 246, 246);
+    background-color: white;
     border-radius: 10px;
-    padding-right: 50px;
+    padding-right: 60px;
     padding-left: 10px;
 }
 
 .user-section {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     margin-top: 80px;
 }
 
+/* Ready Section */
+.ready-img{
+    width: 1140px;
+    
+}
 /* Form Section */
 
 .form-h1 {
@@ -238,7 +244,7 @@ main {
 
 .main-form-input {
     width: 480px;
-    height: 70px;
+    height: 50px;
     color: #acacb9;
     padding-left: 10px;
     padding-top: 10px;
@@ -272,4 +278,52 @@ input[placeholder] {
     margin-top: 10px;
     border-radius: 10px;
     border-color: whitesmoke;
+}
+
+.for-text{
+    height:150px;
+}
+
+
+/* Footer section */
+
+footer {
+    width: 1000px;
+    height: 428px;
+    line-height: 5px;
+    background-color: white;
+    margin-top: 170px;
+}
+
+.foot-h {
+    padding-top: 150px;
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: 100px;
+    color: #4E47FF;
+}
+
+.foot-art {
+    font-size: 20px;
+    color: #8987A1;
+    margin-left: 10px;
+}
+
+.foot-ul {
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+
+.foot-li2 {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 20px;
+}
+
+.line-hight {
+    line-height: 25px;
+    padding-left: 20px;
 }
