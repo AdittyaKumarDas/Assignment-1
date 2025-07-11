@@ -1,6 +1,4 @@
-/* For header sectoin */
-
-
+/* Font Integration */
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -14,7 +12,7 @@
     font-style: normal;
 }
 
-
+/* For header sectoin */
 .head-div {
     display: flex;
     justify-content: space-between;
@@ -59,4 +57,219 @@
 
 .bg-img {
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+}
+
+/* For Main:-First Section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-sec-h1 {
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.main-sec-p {
+    color: #252432;
+    font-weight: normal;
+    font-size: 24px;
+    padding-right: 230px;
+}
+
+.for-main-btn {
+    color: #FFFF;
+    background-color: #4E47FF;
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #4E47FF;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.for-section-img {
+    border-radius: 20px;
+}
+
+.line-hght {
+    line-height: 30px;
+}
+
+/* For Main Second Section */
+.Section-look {
+    background-color: #d9d9eb;
+    border-radius: 10px;
+    height: 320px;
+    margin-top: 160px;
+}
+
+.Section-look-h {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.sec-div-ul-1 {
+    list-style: none;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    padding-top: 20px;
+}
+
+.sec-div-ul-2 {
+    list-style: none;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(90, 88, 88);
+}
+
+.ul-div1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ul-div2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line-hght2 {
+    line-height: 0px;
+}
+
+/* Users Review Section */
+
+.user-say {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.user-photo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.user-photo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 360px;
+}
+
+.review {
+    line-height: 4px;
+}
+
+.font-design {
+    font-weight: bold;
+    font-size: 25px;
+    color: #252432;
+}
+
+.font-design2 {
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(90, 88, 88);
+
+}
+
+.font-design3 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #252432;
+}
+
+.font-design4 {
+    font-weight: normal;
+    font-size: 15px;
+    color: rgb(90, 88, 88);
+}
+
+.user-div {
+    line-height: 20px;
+    background-color: rgb(249, 246, 246);
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.user-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+/* Form Section */
+
+.form-h1 {
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.form-part {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.main-form {
+    width: 500px;
+    height: 450px;
+    margin-right: 20px;
+}
+
+.main-form-input {
+    width: 480px;
+    height: 70px;
+    color: #acacb9;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.form-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background-color: aquamarine; */
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+input[placeholder] {
+    font-family: inter-font;
+    font-size: 20px;
+}
+
+.form-btn {
+    color: #FFFF;
+    background-color: #4E47FF;
+    width: 480px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #4E47FF;
+    margin-top: 20px;
+}
+
+.input-margin {
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: whitesmoke;
 }
