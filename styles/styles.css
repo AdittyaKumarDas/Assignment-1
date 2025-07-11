@@ -36,6 +36,11 @@
     margin-right: 100px;
 }
 
+.for-head-btn:hover {
+    background-color: aliceblue;
+    color: #323030;
+}
+
 .for-heading {
     font-weight: bold;
     font-size: 65px;
@@ -48,6 +53,11 @@
     height: 48px;
     border-radius: 10px;
     border-color: #4E47FF;
+}
+
+.for-head-btn2:hover {
+    background-color: aliceblue;
+    color: #323030;
 }
 
 .for-head-section {
@@ -82,6 +92,11 @@
     height: 48px;
     border-radius: 10px;
     border-color: #4E47FF;
+}
+
+.for-main-btn:hover {
+    background-color: aliceblue;
+    color: #323030;
 }
 
 .main-section {
@@ -259,6 +274,11 @@
     margin-bottom: 20px;
 }
 
+.ready-btn:hover {
+    background-color: aliceblue;
+    color: #323030;
+}
+
 .ready-line {
     padding-top: 10px;
     line-height: 10px;
@@ -318,6 +338,11 @@ input[placeholder] {
     margin-top: 20px;
 }
 
+.form-btn:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
 .input-margin {
     margin-top: 10px;
     border-radius: 10px;
@@ -370,4 +395,8 @@ footer {
 .line-hight {
     line-height: 25px;
     padding-left: 20px;
+}
+
+.btn-hover:hover {
+    color: azure;
 }
